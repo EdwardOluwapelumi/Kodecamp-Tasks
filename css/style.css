@@ -467,14 +467,15 @@
         .testimonies {
             display: flex;
             width: 100%;
-            min-height: 100vh;
+            min-height: 50vh;
             justify-content: space-evenly;
             padding-top: 2rem;
+            padding-bottom: 2em;
         }
         
         .test-img {
             padding: 2rem;
-            max-height: 50vh;
+            min-height: 30vh;
             background-color: white;
         }
         
@@ -845,5 +846,129 @@
             }
             .footer-bottom-header{
                 padding-bottom: 0px;
+            }
+        }
+
+        /**Tablet view**/
+
+        @media (max-width: 767px) {
+            .main-header{
+                font-size:0.6em;
+                padding-bottom: 2em;
+            }
+
+            .icon img{
+                width:80%;
+            }
+
+            .text-section h1,#quote-section .left-section h2,#quote-section .right-form-section h3,#process .process-left h2,#offer-session h4,.rating-number,.our-brands h2.test-wrap h2,#footer-top .footer-top-left h1{
+                font-size:2em;
+                font-weight:900;
+            }
+
+            .day, #offer-session h4{
+                font-size:0.9em;
+            }
+
+            .orange-btn{
+                padding: 11px 24px;
+            }
+
+            #quote-section .right-form-section {
+                margin-left: 2.4em;
+            }
+
+            #quote-section .left-section .text-box,.pro-text p,.brand-img img,.testimonies{
+                width: 100%;
+            }
+
+            #process .process-left {
+                width:60%;
+            }
+
+            #process .process-right {
+                width: 40%;
+            }
+
+            .process-image{
+                margin-left: -4em;
+                margin-bottom: -2em;
+                width:35px;
+            }
+
+            .vertical-line{
+                margin-left: -2.9em;
+            }
+
+            #process .process-right h4{
+                font-size: 1.3em;
+                width:100%;
+                margin-top: 0.9em;
+            }
+
+            #offer-session p{
+                font-weight: 600;
+            }
+
+            .offer-img {
+                padding:2.6em;
+            }
+
+            .flexbox-text h4 {
+                padding-top:1em;
+                font-size:1em;
+                letter-spacing: 0.1em;
+            }
+
+            .black-btn {
+                margin-left:1em;
+            }
+
+            .experience-ratings p{
+                margin:1em;
+                width:100%;
+            }
+
+            .rating-number {
+                margin:1em 0.5em auto;
+            }
+
+            .test-img img, #footer-top .top-text{
+                width:100%;
+            }
+
+            .test-img{
+                margin-left: 1rem;
+                width:40%;
+            }
+
+            .left-direction img{
+                width:80%;
+            }
+
+            .direction .right-direction img{
+                width:60%;
+            }
+
+            .question h4{
+                padding-bottom: 1em;
+            }
+
+            .faq-box p{
+                font-weight:500;
+            }
+
+            .faq-box .faq-control img{
+                height: 9vh;
+            }
+            
+            #footer-top .footer-right-text {
+                line-height: 2.5em;
+                font-size: 0.9em;
+            }
+
+            .footer-bottom-header {
+                width:100%;
+                font-size: 0.7em;
             }
         }
