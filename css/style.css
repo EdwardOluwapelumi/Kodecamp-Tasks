@@ -851,7 +851,7 @@
 
         /**Tablet view**/
 
-        @media (max-width: 767px) {
+        @media (min-width:481px) and (max-width: 769px) {
             .main-header{
                 font-size:0.6em;
                 padding-bottom: 2em;
